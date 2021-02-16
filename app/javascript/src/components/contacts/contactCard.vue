@@ -6,7 +6,7 @@ v-row#contactCard
       height="136px"
       width="134px"
       onerror="this.src = '../image-not-found.png';"
-      :alt="contact.name"
+      :alt="source.name"
     )
   v-col.contact-card-data
     v-row.contact-card-body
